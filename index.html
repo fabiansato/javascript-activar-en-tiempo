@@ -9,7 +9,7 @@
 
 
 var fechaactual = new Date();
-var fechadecierre = new Date('2021-12-20T00:00:00');
+var fechadecierre = new Date('2021-12-17T14:24:00'); //ESTO ES LO QUE SE CAMBIA
 
 console.log("fechaactual",fechaactual);
 console.log("full year: ",fechaactual.getFullYear());
@@ -34,10 +34,11 @@ if (fechadecierre > fechaactual) {
 function concursoVigente(){
 
 alert("El concurso sigue vigente");
+
 }
 function concursoFinalizado(){
     alert("se termino el concurso");
-    //location.href="index-terminado.html";
+ location.href="/index-terminado.php";
 }
 
         
